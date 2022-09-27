@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <script> function telainicial(){
+    window.location.href="../../index.php";
+  } 
+
+   function profile(){
+    window.location.href="./login.html";
+  }
+
+  function saibamais(){
+    window.location.href="../sobre/sobre.html";
+  }
+
+  function faleconosco(){
+    window.location.href="../sobre/contato";
+  }
+
+  </script>
+</head>
+
+<body>
+
+  <a name="topo"></a>
+
+    <header>
+
+      <section id="profile"  onclick="profile()">
+
+      </section>
+
+      <section id="username">
+      </section>
+
+        <section id="search">
+
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Pesquisar" id="searchbar">
+                <div class="input-group-append">
+                  <button class="btn btn-primary" type="submit"><i class="fas fa-search"> </i></button>
+                </div>
+              </div>
+
+        </section>
+          
+        <section id="logo" onclick="telainicial()">
+          
+        </section>
+
+        
+    </header>
+
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-center">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.php">Página Inicial</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../avaliacao/index.html">Avaliações</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../sobre/contato.html">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../cadastro/index.php">Cadastro</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../sobre/sobre.html">Sobre</a>
+            </li>
+          </ul>
+    </nav>
+<main>
+
+
+    
+    
+    <div class="container">
+        <div class="login">        
+               <img src="../../img_SA/logoSA.png" class="rounded" alt="Cinque Terre"> 
+            </div>
+            <hr width="500" heigth="200"color="blue"/>
+            
+        <form action="../../controller/usercontroller/index.php" class="was-validated" name="login" method="post">
+    <div class="form-group">
+        <h2> Login</h2>
+      <label for="uname">Email:</label>
+      <input type="text" class="form-control" id="email" placeholder="Digite seu email" name="mail" required>
+      <div class="valid-feedback">Válido</div>
+      <div class="invalid-feedback">Por favor digite um email válido</div>
+    </div>
+    <div class="form-group">
+      <label for="pwd">Senha:</label>
+      <input type="password" class="form-control" id="senha" placeholder="Digite sua senha" name="senha" required>
+      <div class="valid-feedback">Válido</div>
+      <div class="invalid-feedback">Por favor digite uma senha válida</div>
+    </div>
+   
+    <button type="submit" class="btn btn-primary" name="login">Entrar</button>
+    <br/>
+    
+    <hr width="500" heigth="200"color="blue"/>
+    
+    <a href="../cadastro/index.php"><button class="btn btn-primary">Criar uma nova conta</button></a>
+  </form>
+</div>
+</main> 
+<footer>
+
+
+  <div class="container-footer">
+
+    <section id="saibamais" onclick="saibamais()"> 
+      
+     <ins> Saiba mais </ins>
+
+    </section> 
+
+  
+
+    <section id="faleconosco" onclick="faleconosco()">
+
+     <ins> Fale Conosco </ins> 
+    
+    </section>
+
+     <section id="socialmediaicon">
+
+      <button class="btn btn-light" type="button"> <a href="https://instagram.com/magiadoslivro?igshid=YmMyMTA2M2Y=" target="blank">  <i class="fa-brands fa-instagram"></i> Instagram </a> </button>
+     
+     </section>
+
+  </div>
+
+
+
+</footer>
+
+
+</body>
+</html>

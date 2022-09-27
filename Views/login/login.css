@@ -1,0 +1,155 @@
+header {
+    width: 100%;
+    height: 21vh;
+    background-color: #3854a6;
+  }
+  
+  html , body{
+    padding: 0; 
+  }
+  
+  #profile {
+  
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url('../../img_SA/profilepic.webp');
+    margin-top: 5vh;
+    margin-right: 3vw;    
+    height: 65px ;
+    width: 65px;
+    float: right;
+    cursor: pointer;
+  
+  }
+  
+  #username {
+  
+    color: #fff;
+    margin-top: 7vh;
+    margin-right: 3vw;    
+    display: flex;
+    float: right;    
+  
+  }
+  
+  
+  nav {
+    margin-top: 2vh;
+    
+  }
+  
+  .active{
+    background-color: rgba(38, 54, 200, 0.5);
+  }
+  
+  main {
+  
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 140vh;
+  
+  } 
+
+  #logo {
+
+    float: left;
+    width: 15vw;
+    height: 15vh;
+    margin-left: 15px;
+    margin-top: 2vh;
+    background-image: url(../../img_SA/logoSA.png);
+    background-size: 140% 280%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+   
+  }
+  
+  #search{
+  
+    float: right;
+    margin-top: 7vh;
+    margin-right: 11vw;
+  
+  }
+  #searchbar {
+  
+    width:23vw !important;
+  
+  }
+  #return{
+    width: 2vw;
+    height: 2vh;
+  }
+  
+  footer {
+    padding: 5vh;
+    height: auto;
+    width: 100%;
+    background-color: #3854a6;
+  
+  }
+  
+  .container-footer{
+    margin: 0 auto;
+    display: flex;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color: aliceblue;
+  }
+  
+  #saibamais{
+  
+    display: flex;
+    width: auto;
+    height: 4vh;
+    cursor: pointer;
+  }
+  
+  #faleconosco{
+    display: flex;
+    float: left;
+    margin-left: 5vw;
+    width: auto;
+    height: 3vh;
+    cursor: pointer;
+  
+  }
+  
+  #socialmediaicon1 {
+
+    display: flex;
+    margin-top: 2vh;
+    margin-right: 2vw;
+    float: right;
+    width: 3vw;
+    height: 6vh;
+    border-radius: 50%;
+  
+  }
+   
+img{
+    margin: 0 auto;
+    width: 205px;
+    height: 130px;
+    display: flex;  
+    background-color: #3854a6;
+} 
+
+.container{
+    padding: 2vw;
+    
+    margin: 0 auto;
+    margin-top: 3vh;
+    width: 50vw !important;
+    height: auto;
+}
+
+fieldset{
+    width: 50vw;
+  
+}
